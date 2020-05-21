@@ -1,0 +1,55 @@
+body {
+  color: rgb(64, 207, 21);
+  background: rgb(252, 250, 250);
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+}
+
+input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+button,
+label,
+ul {
+  width: 600px;
+  box-sizing: border-box;
+  border: solid 5px rgb(13, 202, 114);
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 24px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+
+}
+
+img {
+  width: 700px;
+  margin-bottom: 25px;
+  border: solid 5px rgb(15, 167, 172);
+
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 25px;
+  
+}
+
+li:not(:last-child) {
+  padding: 10px;
+  border-bottom: solid 1px;
+}
